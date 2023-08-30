@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    text-align: center;
+    background-color: #000000;
+    padding: 15px;
+    color: white;
+    font-family: normal normal medium 50px/59px Raleway;
+}
+
+main img{
+    width: 100%;
+}
+
+article{
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-top: -10px;
+}
+
+article p{
+    padding-left: 150px;
+    padding: 20px;
+    padding-top: 50px;
+    font-family: normal normal 300 16px/19px Raleway;
+
+}
+
+article img{
+    width: 400px;
+    padding-right: 150px;
+}
+.iconos{
+    background-color: #1E1A13;
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+.iconos .logos {
+    display: flex;
+    justify-content: space-evenly;  
+    padding: 30px;
+}
+
+.galeria {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.galeria .img  {
+    width: 315px;
+}
